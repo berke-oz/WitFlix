@@ -163,10 +163,7 @@ nav ul li a {
     margin-top: 30px;
     cursor: pointer;
 }
-.popular-movies {
-    padding: 20px;
-    background-color: #fff;
-}
+
 
 .movie-row {
     display: flex;
@@ -238,4 +235,80 @@ nav ul li a {
     background-image: url(img/deadpool-wolverine.png);
 }
 
+.rcm-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rcm-title h2 {
+    font-family: 'Arial';
+    font-weight: bold;
+}
+.rcm-title a{
+    text-decoration: none;
+    font-family: 'Arial';
+    font-weight: bold;
+    color: inherit;
+}
+.btn-rmd {
+    background-color:red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 80px;
+    width: 40%;
+}
+.rmd-movie-row {
+    display: flex;
+    gap: 100px;
+    padding: 20px;
+    justify-content: space-between;
 
+}
+.rmd-movie-items {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+    padding: 20px;
+}
+.rmd-movie-items h2 {
+    margin: 0;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-weight: bold;  
+    font-size: 40px;
+}
+
+.rmd-movie-details{
+    color: white;
+    font-weight: bold;
+    font-family: 'Arial';
+}
+.rmd-movie-items:nth-child(1) {
+    background-image: url(img/movie02.png);
+
+}
+.rmd-movie-items:nth-child(2) {
+    background-image: url(img/movie01.png);
+
+}
+.rmd-movie-items:nth-child(3) {
+    background-image: url(img/movie03.png);
+
+}
+.rmd-maturatiy-rating {
+    font-size: 1em;
+    padding: 2px 5px;
+    border: 1px solid  white;
+    border-radius: 5px;
+
+}
