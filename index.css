@@ -50,11 +50,15 @@ nav ul li a {
     position: relative;
     width: 100%;
     height: 500px;
-    background-image: url('img/movie.png'); 
+    background-image: url('img/Movie\ 2.png'); 
     background-size: cover;
     background-position: center;
     color: white;
     padding: 20px;
+    
+}
+.hero-content background-image{
+    filter: brightness(50%);
 }
 
 .hero-content h1{
@@ -63,6 +67,7 @@ nav ul li a {
     margin-bottom: 5px;
     color: white;
     font-stretch: extra-expanded;
+    font-family: 'Bebas Neue';
     
 }
 
@@ -96,4 +101,35 @@ nav ul li a {
 
 .score {
     margin-left: 5px;
+}
+.hero-content p {
+    max-width: 600px;
+    font-family: 'Arial';
+    
+}
+
+.movie-details li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    margin-left: -40px;
+    font-family: 'Arial';
+}
+
+.movie-details span {
+    color: red;
+    font-weight: bold;
+    font-family: 'Arial';
+}
+.btn-lg {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
 }
