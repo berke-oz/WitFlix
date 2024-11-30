@@ -57,9 +57,6 @@ nav ul li a {
     padding: 20px;
     
 }
-.hero-content background-image{
-    filter: brightness(50%);
-}
 
 .hero-content h1{
     font-size: 3em;
@@ -133,3 +130,112 @@ nav ul li a {
     margin-top: 30px;
     cursor: pointer;
 }
+
+.suggestion-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suggestion-title h2 {
+    font-family: 'Arial';
+    font-weight: bold;
+}
+
+.suggestion-title a{
+    text-decoration: none;
+    font-family: 'Arial';
+    font-weight: bold;
+    color: inherit;
+}
+
+
+.btn-md {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.popular-movies {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.movie-row {
+    display: flex;
+    gap: 100px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.movie-item {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+
+
+.movie-item h2 {
+    margin: 0;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-weight: bold;  
+    font-size: 40px;
+}
+
+.popular-movie-details{
+    color: white;
+    font-weight: bold;
+    font-family: 'Arial';
+}
+
+.pm-maturatiy-rating {
+    font-size: 1em;
+    padding: 2px 5px;
+    border: 1px solid  white;
+    border-radius: 5px;
+
+}
+
+
+.btn-pm {
+    background-color:red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 80px;
+    width: 40%; 
+}
+
+.movie-item:nth-child(1) {
+    background-image: url(img/cars1.png);
+
+}
+
+.movie-item:nth-child(2) {
+    background-image: url(img/fight_club_wallpaper_by_jackxtyler_dgdpzuj-pre.png);
+}
+
+.movie-item:nth-child(3) {
+    background-image: url(img/deadpool-wolverine.png);
+}
+
+
