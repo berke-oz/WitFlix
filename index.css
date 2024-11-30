@@ -46,4 +46,54 @@ nav ul li a {
    
 }
 
+.hero-content{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url('img/movie.png'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+}
 
+.hero-content h1{
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+    font-stretch: extra-expanded;
+    
+}
+
+.movie-info {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.user-ratings{
+    font-size: 1.2em;
+}
+
+.maturatiy-rating{
+    font-size: 1em;
+    padding: 2px 5px;
+    border: 1px solid  white;
+    border-radius: 5px;
+    
+
+    
+}
+
+.duration{
+    font-size: 1.2em;
+}
+
+.stars {
+    color: gold;
+}
+
+.score {
+    margin-left: 5px;
+}
