@@ -1,4 +1,6 @@
-
+body{
+    background-color: black;
+}
 
 .logo {
     width: 250px;
@@ -21,15 +23,17 @@ nav ul {
     list-style: none; 
     margin: 0; 
     padding: 0; 
+   
 }
 
 nav ul li {
     margin: 0 30px; 
+    color: white    ;
 }
 
 nav ul li a {
     text-decoration: none; 
-    color: black; 
+    color: white; 
     font-family: 'Oswald';
     font-size: large;
 }
@@ -140,13 +144,14 @@ nav ul li a {
 .suggestion-title h2 {
     font-family: 'Arial';
     font-weight: bold;
+    color: white
 }
 
 .suggestion-title a{
     text-decoration: none;
     font-family: 'Arial';
     font-weight: bold;
-    color: inherit;
+    color: white;
 }
 
 
@@ -243,12 +248,13 @@ nav ul li a {
 .rcm-title h2 {
     font-family: 'Arial';
     font-weight: bold;
+    color: white;
 }
 .rcm-title a{
     text-decoration: none;
     font-family: 'Arial';
     font-weight: bold;
-    color: inherit;
+    color: white;
 }
 .btn-rmd {
     background-color:red;
@@ -311,4 +317,78 @@ nav ul li a {
     border: 1px solid  white;
     border-radius: 5px;
 
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 20px;
+    align-items: flex-start;
+    margin-top: 200px;
+}
+
+.footer-section{
+    flex: 1;
+    margin: 0 20px;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 20px;
+
+}
+footer nav ul{
+    gap: 20px;
+
+    
+}
+
+footer nav li{
+    display: flex;
+    margin-bottom: px;
+    margin: 0;
+    width: 150px;
+    text-decoration: none;
+}
+footer p{
+    color: white;
+}
+
+.bold-p {
+    font-weight: bold;
+
+}
+
+.social-media {
+    display: flex;
+    gap: 30px; 
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+
+}
+
+.social-media img {
+    width: 24px; 
+    height: 24px;
+    cursor: pointer;
+}
+
+.apps {
+    display: flex;
+    gap: 10px; 
+    margin-top: 10px;
+}
+
+.apps img {
+    width: 120px; 
+    height: auto;
+    cursor: pointer;
+}
+
+.footer-section h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    color: #333;
+    text-align: center;     
+    color: white;
 }
