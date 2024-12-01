@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: black     ;
 }
 
 .logo {
@@ -28,7 +28,7 @@ nav ul {
 
 nav ul li {
     margin: 0 30px; 
-    color: white    ;
+    color: white;
 }
 
 nav ul li a {
@@ -38,6 +38,7 @@ nav ul li a {
     font-size: large;
 }
 .search{
+    
     display: flex;
     align-items: center;
     width: 50px;
@@ -392,3 +393,93 @@ footer p{
     text-align: center;     
     color: white;
 }
+@media (max-width: 768px) {
+    .container {
+        width: 100%;  
+        padding: 0 10px;   
+    }
+
+    .hero-content {
+        height: 500px;  
+    }
+    .hero-content p{
+        margin-right: 10px;
+    }
+
+    .PopularMovies .movie-row {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .PopularMovies .movie-item h2{
+        font-size: 23px;
+    }
+
+    .PopularMovies .movie-item .popular-movie-details span{
+        font-size: 13px;
+    }
+    .btn-pm{
+        height: 40px;
+        width: 80px;
+        font-size: 10px;
+        margin-top: 90px;
+    }
+
+    
+
+   
+    .container nav {
+        align-items: center;
+    
+    }
+
+    .container .logo {
+        width: 100px;
+        margin-bottom: 2%;
+    }
+
+    .container nav ul {
+        
+        text-align: center;  
+        margin-top  : 50px;
+    }
+
+    .container nav a {
+        margin-left: -400px;
+        font-size: 13px;
+        margin-bottom: 50px;
+    }
+    
+    .container nav .search {
+        width: 100px;
+        gap: 10px;
+        margin-left: -550px;
+        margin-bottom: 2%;
+
+    }
+
+    .container nav .search img {
+        width: 25px;
+        
+       
+    }
+    .Recommended-For-You .rmd-movie-row {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .Recommended-For-You .rmd-movie-items h2{
+        font-size: 23px;
+    }
+    .Recommended-For-You .rmd-movie-items .rmd-movie-details span{
+        font-size: 13px;
+    
+    }
+    .btn-rmd{
+        height: 40px;
+        width: 80px;
+        font-size: 10px;
+        margin-top: 90px;
+    }
+}
+
